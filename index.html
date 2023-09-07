@@ -10,14 +10,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Frontend Stage One Task</h1>
-    <div data-testid="slackUserName">
-        <h2>Slack Username: Onsongo Onditi</h2>
+    <div class="container">
+        <h1>Welcome on Board!</h1>
+        <div data-testid="slackUserName">
+            <h2>SLACK USERNAME: Onsongo Onditi</h2>
+        </div>
+        <img src="./assets/profile.jpeg" alt="Onsongo Onditi" data-testid="slackDisplayImage">
+        <div data-testid="currentDayOfTheWeek"></div>
+        <div data-testid="currentUTCTime"></div>
+        <div data-testid="myTrack">
+            <p>MY TRACK: FRONT END</p>
+        </div>
+        <button>
+            <a href="https://github.com/Pronothurah/stage-one-task" target="_blank data-testid="githubURL">GitHub Repository</a>
+        </button>
     </div>
-    <img src="./assets/profile.jpeg" alt="Onsongo Onditi" data-testid="slackDisplayImage">
-    <div data-testid="currentDayOfTheWeek"></div>
-    <div data-testid="currentUTCTime"></div>
-    <div data-testid="myTrack"></div>
-    <a href="https://github.com/Pronothurah" data-testid="githubURL">GitHub Repository</a>
+    <script src="script.js"></script>
 </body>
 </html>
