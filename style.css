@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+html {
+    height: 100%;
+}
+
 .container {
     text-align: center;
     padding: 20px;
